@@ -22,7 +22,6 @@
                          echo($d);
                         ?>
                     </ul>
-                    <a href="test.php"> тестовая функция</a>
                 </li>
                 <li class="part 1-2">
                     <h2> Упражнение 1-2</h2>
