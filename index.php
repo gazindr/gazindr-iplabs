@@ -112,8 +112,10 @@
 
                         </li>
                         <h2> Задача 1-3 </h2>
+                                 <a href="lab1-16_dop2.php"> Вариант 1</a>
+                                 <a href="lab1-16_dop.php"> Вариант 6</a>
+                                 <a href="lab1-16.php"> Вариант 7</a>
 
-                                 <a href="lab1-16.php"> Ссылка </a>
 
                         </li>
                     </div>
