@@ -201,6 +201,14 @@
                     </div>
                 </div>
             </div>
+            <div class = "container Lab2">
+                <div class="row">
+                    <div class="col-12">
+                        <h1> Лабораторная работа №5 </h1>
+                        <a href="5/index.php">Ссылка</a>
+                    </div>
+                </div>
+            </div>
 
         </main>
 
