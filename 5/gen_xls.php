@@ -75,8 +75,8 @@
     $sheet -> SetCellValue("C".($i+2), $model);
     $sheet -> SetCellValue("D".($i+2), $time);
     $sheet -> SetCellValue("E".($i+2), $address);
-    $sheet -> SetCellValue("F".($i+2), $date_in);
-    $sheet -> SetCellValue("G".($i+2), $date_out);
+    $sheet -> SetCellValue("F".($i+2), date("d.m.Y", strtotime($date_in)));
+    $sheet -> SetCellValue("G".($i+2), date("d.m.Y", strtotime($date_out)));
     $sheet -> SetCellValue("H".($i+2), $fio);
     $sheet -> SetCellValue("I".($i+2), $price);
   }

@@ -100,8 +100,8 @@
     while ($row=mysqli_fetch_array($result)){
       echo "<tr>";
       echo "<td>" . $row["id"] . "</td>";
-      echo "<td>" . $row["date_in"] . "</td>";
-      echo "<td>" . $row["date_out"] . "</td>";
+      echo "<td>" . date("d.m.Y", strtotime($row["date_in"])) . "</td>";
+      echo "<td>" . date("d.m.Y", strtotime($row["date_out"])) . "</td>";
       echo "<td>" . $row["id_fridge"] . "</td>";
       echo "<td>" . $row["id_service"] . "</td>";
       echo "<td>" . $row["fio"] . "</td>";
