@@ -59,8 +59,8 @@
     $pdf -> Cell(20, 5, $time, 1, 0, "C");
     $pdf -> Cell(25, 5, $name_service, 1, 0, "C");
     $pdf -> Cell(20, 5, $address, 1, 0, "C");
-    $pdf -> Cell(18, 5, $date_in, 1, 0, "C");
-    $pdf -> Cell(18, 5, $date_out, 1, 0, "C");
+    $pdf -> Cell(18, 5, date("d.m.Y", strtotime($date_in)), 1, 0, "C");
+    $pdf -> Cell(18, 5, date("d.m.Y", strtotime($date_out)), 1, 0, "C");
     $pdf -> Cell(30, 5, $fio, 1, 0, "C");
     $pdf -> Cell(18, 5, $price, 1, 1, "C");
 }
