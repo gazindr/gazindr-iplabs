@@ -1,7 +1,7 @@
 <?php header('Content-Type: text/html; charset=windows-1251'); ?>
 
 <?php
-  echo "<h1>Фамилия И. О.</h1><br>";
+  echo "<h1>Газин Д.Р.</h1><br>";
   echo "<form method='post' action='$PHP_SELF'>";
   echo "<h2>6. Подсчитать число различных гласных, входящих в данный текст.</h2>";
   echo "Введите текст:<br><textarea type='text' name='text6' cols='30' rows='5'></textarea><br>";
